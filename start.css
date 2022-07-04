@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+nav {
+    background-color: aquamarine;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14vh;
+}
+
+.nav-container h1 {
+    font-size: 30px;
+    padding: 5px 40px 0 0;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+.nav-container h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-container ul {
+    display: flex;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 30px;
+}
+
+.nav-container ul li a:hover {
+    text-decoration: underline;
+    text-transform: capitalize;
+    transition: all 0.3 ease-in-out;
+}
+
+/* section */
+.section-1 {
+    background-color: green;
+}
+
+.first-container {
+    height: 30vh;
+}
+
+.searchbar input {
+    width: 20%;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.searchbar input:focus {
+    background-color: whitesmoke;
+}
+
+.searchbar i {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* course-container */
+.section-2 {
+    background-color: blanchedalmond;
+    height: 70vh;
+    width: 100%;
+}
+
+.course-container{
+    width: 100%;
+}
+
+.course-header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 50px 0 0 0;
+}
+
+.courses-available {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.html, .css, .c {
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 15px;
+    height: 17vh;
+}
+
+.html h3, .css h3, .c h3 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.html h3:hover, .css h3:hover, .c h3:hover {
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.html a, .css a, .c a {
+    color: black;
+}
+
+/* about-container */
+.section-3 {
+    background-color: pink;
+    height: 70vh;
+}
+
+.about-container {
+    display: block;
+}
+
+.about-container .about-header {
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.about-container .about-members {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container .about-members .mem {
+    width: 20%;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+/* footer */
+footer {
+    background-color: darkorchid;
+}
+
+.footer-container {
+    height: 50vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f1 h3, .f2 h3, .f3 h3 {
+    font-size: 25px;
+}
+
+.f1 {
+    width: 50%;
+    padding: 10px 50px;
+}
+
+.f2, .f3 {
+    width: 25%;
+    padding: 10px 25px;
+}
+
+.f2 ul , .f3 ul{
+    padding: 10px 0 0 0;
+}
+
+.f2 li , .f3 li{
+    line-height: 30px;
+}
+
+.f2 i , .f3 i{
+    padding: 5px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.footer-container-2 {
+    background: black;
+    color: white;
+    height: 10vh;
+}
+
+.footer-container-2 .left {
+    float: left;
+    padding: 30px 0 0 50px;
+}
+
+.footer-container-2 .right {
+    float: right;
+    padding: 30px 50px 0 0;
+}
