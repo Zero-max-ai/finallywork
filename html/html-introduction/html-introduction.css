@@ -1,0 +1,43 @@
+@import url(/finallywork/start.css);
+
+.section {
+    background-color: antiquewhite;
+    height: 95vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro-header {
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.intro-start{
+    font-size: 20px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.img-2 {
+    position: absolute;
+    right: 5%;
+    top: 47%;
+}
+
+.navigator {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pre {
+    position: absolute;
+}
+
+.nex {
+    position: absolute;
+    right: 5%;
+}
